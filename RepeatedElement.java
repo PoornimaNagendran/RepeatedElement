@@ -22,7 +22,10 @@ public class RepeatedElement {
 					count=1;
 					break;
 				}
+			
 			}
+				if(count==1)
+				break;
 		}
 		System.out.println("The repeated element is");
 		System.out.println(result);
